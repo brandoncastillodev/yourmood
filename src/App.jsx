@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./styles/app.css";
 import { discos } from "./utils/canciones";
 import { Analytics } from "@vercel/analytics/react";
-import YouTube from "react-youtube";
 
 function App() {
   const [eng, setEng] = useState(true);
@@ -73,12 +72,11 @@ function App() {
           id="form"
           value={respuesta}
           onChange={(e) => setRespuesta(e.target.value)}
-          onFocus={() => setRespuesta("")}
           required
           min={1}
           max={10}
         ></input>
-        <button>Enviar</button>
+       {eng? <button>Send</button>:<button>Enviar</button>}
       </form>
       {album.link && (
         <div className="video">

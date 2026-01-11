@@ -75,14 +75,8 @@ export const discos = {
       name: "bloody roots",
       link: "F_6IjeprfEs"
     },
-    {
-      name: "in th eend",
-      link: "eVTXPUF4Oz4"
-    }
+
   ],
-
-  
-
 
   //CON MIEEEDOO
   4: [
@@ -90,9 +84,9 @@ export const discos = {
       name: "27",
       link: "fKqKM-gvK_w",
     },
-      {
-      name: "theme bones",
-      link: "zTuD8k3JvxQ"
+    {
+      name: "in th eend",
+      link: "eVTXPUF4Oz4"
     },
     {
       name: "black n 1",
