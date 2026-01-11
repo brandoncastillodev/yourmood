@@ -12,7 +12,7 @@ Thank you.
 
 _**Español**_
 
-Seleccionar un numero de acuerdo a tú animo y presionar enter.
+Seleccionar un numero de acuerdo a tú animo y presione enter.
 
 Muchas gracias.
 
