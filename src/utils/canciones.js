@@ -79,7 +79,6 @@ export const discos = {
   ],
 
 
-
   // ANSIOOOSOOO
   5: [
     {
@@ -92,7 +91,7 @@ export const discos = {
     },
     {
       name: "reptilia",
-      link: "dGR65RWwzg8"
+      link: "b8-tXG8KrWs"
     },
     {
       name: "i wanna be adored",
@@ -100,7 +99,7 @@ export const discos = {
     },
     {
       name: "juicibox",
-      link: "dGR65RWwzg8"
+      link: "GoltwBHXCx8"
     },
   ],
 
@@ -117,7 +116,7 @@ export const discos = {
     },
     {
       name: "be quiet",
-      link: "vpdIWNfZkLZPJogU"
+      link: "dAW8CoH_lN0"
     },    
   ],
 
@@ -143,7 +142,7 @@ export const discos = {
     },
     {
       name: "i only said",
-      "link": "o8Iqy46aXuo"
+      link: "o8Iqy46aXuo"
     },
   ],
 
@@ -156,7 +155,7 @@ export const discos = {
     },
     {
       name: "altogether",
-      link: "suEY0WcOsxJg",
+      link: "uEY0WcOsxJg",
     },
     {
       name: "teeanger",
@@ -180,11 +179,12 @@ export const discos = {
       link: "f9GDzEg1Hcg"
     }
   ],
+
   // reflexivo
   10:[
     {
       name: "Rhubarb",
-      link: "_AWIqXzvX",
+      link: "_AWIqXzvX-U",
     },
     {
       name: "14th avril",
