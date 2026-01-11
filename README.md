@@ -8,13 +8,6 @@ _**English**_
 
 Select a number according to your mood, and press enter.
 
-Thank you.
-
 _**Español**_
 
 Seleccionar un numero de acuerdo a tú animo y presionar enter.
-
-Muchas gracias.
-
-
-Brandon
