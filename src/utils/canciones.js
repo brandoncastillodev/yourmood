@@ -125,10 +125,10 @@ export const discos = {
 
   // EUFORRICOOO
   7: [
-    {
-      name: "my own summer",
-      "link": "XOzs1FehYOA&"
-    },
+    // {
+    //   name: "my own summer",
+    //   "link": "XOzs1FehYOA"
+    // },
     {
       name: "all star",
       link: "L_jWHffIx5E"
