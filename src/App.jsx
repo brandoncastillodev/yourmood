@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import YouTube from "react-youtube";
 
 function App() {
+  const [eng, setEng] = useState(true);
   const [respuesta , setRespuesta] = useState("");
   const [album, setAlbum] = useState({ name: "", link: "" });
   const options = {
@@ -35,22 +36,38 @@ function App() {
         <u>Your Mood</u>
       </h1>
       <div className="consigna">
-        <p> ¿Cómo se encuentra hoy?</p>
-        <ol>
-          <li>feliz</li>
-          <li>triste</li>
-          <li>enojado</li>
-          <li>miedoso</li>
-          <li>ansioso</li>
-          <li>aburrido</li>
-          <li>eufórico</li>
-          <li>calmado</li>
-          <li>confundido</li>
-          <li>reflexivo</li>
-        </ol>
+        {eng ? <p> How you're feeling today? </p>:
+        <p>¿Cómo se encuentra hoy? </p>}
+        {eng ? 
+          <ol>
+            <li>happy</li>
+            <li>sad</li>
+            <li>angry</li>
+            <li>scared</li>
+            <li>anxious</li>
+            <li>bored</li>
+            <li>euphoric</li>
+            <li>calm</li>
+            <li>confuse</li>
+            <li>thoughtful</li>
+          </ol>
+          :<ol>
+            <li>feliz</li>
+            <li>triste</li>
+            <li>enojado</li>
+            <li>miedoso</li>
+            <li>ansioso</li>
+            <li>aburrido</li>
+            <li>eufórico</li>
+            <li>calmado</li>
+            <li>confundido</li>
+            <li>reflexivo</li>
+          </ol>}
       </div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="form">Ingrese una opción:</label>
+        {eng ?
+        <label htmlFor="form">Enter an option:</label>:
+         <label htmlFor="form">Ingrese una opción:</label>}
         <input
           type="number"
           id="form"
@@ -79,7 +96,11 @@ function App() {
       )}
       <div className="space-black"></div>
       <footer>
-        <p>Hecho con ❤️ por Brandon 🏰</p>
+        {/* <button onClick={()=>{setEng(!eng)}}>{eng ? "Español" : "English"}</button> */}
+        {eng? 
+        <p>Made with ❤️ by Brandon 🏰</p>:
+        <p>Hecho con ❤️ por Brandon 🏰</p>}
+
       </footer>      
     </div>
   );

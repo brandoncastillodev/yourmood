@@ -11,7 +11,7 @@
   min-height: 100vh;
   background-image: linear-gradient(#9A8C98, #4A4E69);
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   flex-direction: column;
   align-items: center;
   font-family: Poetsen One;
@@ -101,6 +101,9 @@ form button {
   .frame {
     width: 40vw;
     height: 45vh;
+  }
+  footer {
+    font-size: 1.15rem;
   }
 }
 
