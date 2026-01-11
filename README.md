@@ -12,4 +12,4 @@ _**Español**_
 
 Seleccionar un numero de acuerdo a tú animo y presionar enter.
 
-Made with love by Brandon 🏰
+Made with love by Brandon
