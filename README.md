@@ -1,6 +1,6 @@
 Your Mood
 
-![image](https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png)
+![image](https://res.cloudinary.com/daynclfo8/image/upload/v1768147543/2026-01-11-12-58-54_r7gfpm.png)
 
 [Demo](https://www.youtube.com/watch?v=LliCjVK8ZBQ)
 
