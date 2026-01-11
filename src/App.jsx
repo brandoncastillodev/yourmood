@@ -47,7 +47,7 @@ function App() {
             <li>bored</li>
             <li>euphoric</li>
             <li>calm</li>
-            <li>confuse</li>
+            <li>confused</li>
             <li>thoughtful</li>
           </ol>
           :<ol>

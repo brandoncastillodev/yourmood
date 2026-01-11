@@ -17,21 +17,12 @@ export const discos = {
       name: "jumper",
       link: "gRYZijLZR-Q"
     },
-    {
-      name: "xtal",
-      link: "uXpK8CTIAxE"
-    },
   ],
-
 
 
 
   // TRISTE :,,(
   2: [
-    {
-      name: "black hole sun",
-      link: "3mbBbFH9fAg",
-    },
     {
       name: "behind blue eyes",
       link: "Tr8uesBowS4"
@@ -45,16 +36,10 @@ export const discos = {
       link: "u5CVsCnxyXg"
     },
     {
-      name: "digital bath",
-      link: "O_IIAYZL1R4"
-    },
-    {
       name: "im with you",
       link: "dGR65RWwzg8"
     }
   ],
-
-
 
 
   //ENOJADOOOO!!
@@ -68,14 +53,13 @@ export const discos = {
       link: "SCx_uiSdC_c",
     },
     {
-      name: "be quiet",
-      link: "KvknOXGPzCQ"
+      name: "engine 9 ",
+      link: "OC8x9_App2I"
     },
     {
       name: "bloody roots",
       link: "F_6IjeprfEs"
     },
-
   ],
 
   //CON MIEEEDOO
@@ -85,14 +69,6 @@ export const discos = {
       link: "fKqKM-gvK_w",
     },
     {
-      name: "in th eend",
-      link: "eVTXPUF4Oz4"
-    },
-    {
-      name: "black n 1",
-      link: "JmijMVT3x"
-    },
-    {
       name: "rabbid",
       link: "Wv0PrgH6qxU"
     },
@@ -100,7 +76,6 @@ export const discos = {
       name: "doubble bass",
       link: "_ONnnlhrM"
     },
- 
   ],
 
 
@@ -115,7 +90,7 @@ export const discos = {
       name: "complicated",
       link: "5NPBIwQyPWE"
     },
-       {
+    {
       name: "reptilia",
       link: "dGR65RWwzg8"
     },
@@ -130,21 +105,20 @@ export const discos = {
   ],
 
 
-
   //  BOREEED
   6: [
     {
-      name: "alive",
-      link: "qM0zINtulhM"
+      name: "bored",
+      link: "WdYo3WlETY"
     },
     {
       name: "stab",
       link: "B3E4Ig1DWek"
     },
-        {
-      name: "pulsewidth",
-      link: "TfInTQz0kdM"
-    },
+    {
+      name: "be quiet",
+      link: "vpdIWNfZkLZPJogU"
+    },    
   ],
 
 
@@ -156,25 +130,22 @@ export const discos = {
       "link": "XOzs1FehYOA&"
     },
     {
-      name: "i only said",
-      "link": "o8Iqy46aXuo"
-    },
-    {
       name: "all star",
       link: "L_jWHffIx5E"
+    },
+    {
+      name: "my generation",
+      link: "BE9CXWV1alg"
     },
     {
       name: "rollin",
       link: "RYnFIRc0k6E"
     },
     {
-      name: "my generation",
-      link: "BE9CXWV1alg"
+      name: "i only said",
+      "link": "o8Iqy46aXuo"
     },
   ],
-
-
-
 
 
   //  CALMAO
@@ -191,25 +162,24 @@ export const discos = {
       name: "teeanger",
       link: "rn2OM546an8"
     },
-
   ],
 
 
   // CONFUNDIDOOO
   9:[
     {
+      name: "a day in the life",
+      link: "usNsCeOV4GM",
+    },
+    {
       name: "flim",
       link: "-yNHlKAzyVA"
     },
     {
-      name: "a day in the life",
-      link: "usNsCeOV4GM",
-    },
+      name: "winona",
+      link: "f9GDzEg1Hcg"
+    }
   ],
-
-
-
-
   // reflexivo
   10:[
     {
@@ -217,12 +187,16 @@ export const discos = {
       link: "_AWIqXzvX",
     },
     {
-      name: "across the universe",
-      link: "we0tO0LxY8Y",
-    },
-    {
       name: "14th avril",
       link: "uxTdTaNIUxo"
+    },
+    {
+      name: "xtal",
+      link: "2tOutF8B3f8",
+    },
+    {
+      name: "across the universe",
+      link: "we0tO0LxY8Y",
     }
   ]
 }
