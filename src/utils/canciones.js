@@ -19,8 +19,6 @@ export const discos = {
     },
   ],
 
-
-
   // TRISTE :,,(
   2: [
     {
@@ -41,7 +39,6 @@ export const discos = {
     }
   ],
 
-
   //ENOJADOOOO!!
   3: [
     {
@@ -53,7 +50,7 @@ export const discos = {
       link: "SCx_uiSdC_c",
     },
     {
-      name: "engine 9 ",
+      name: "engine 9",
       link: "OC8x9_App2I"
     },
     {
@@ -76,8 +73,11 @@ export const discos = {
       name: "doubble bass",
       link: "_ONnnlhrM"
     },
+    {
+      name: "mata el miedo que guar",
+      link: "DcpUPaBS8MA"
+    }
   ],
-
 
   // ANSIOOOSOOO
   5: [
