@@ -55,9 +55,7 @@ form input[type=number]::-webkit-inner-spin-button {
 form input[type=number] {
   -moz-appearance: textfield;
 }
-form input:hover {
-  outline: 3.5px solid #d32828;
-}
+form input:hover,
 form input:focus {
   outline: none;
   box-shadow: 0 0 0 3px #87CEEB;
@@ -71,17 +69,18 @@ form button {
   background-color: inherit;
   cursor: pointer;
   font-size: 1rem;
+  transition: all 0.15s ease;
 }
-form button:hover {
-  background-color: #F2E9E4;
-  color: #4A4E69;
-}
-form button:active {
-  background-color: #F2E9E4;
-  color: #4A4E69;
-}
+form button:hover,
 form button:focus {
   outline: none;
+  box-shadow: 0 0 0 3px #87CEEB;
+}
+form button:active,
+form button:focus:active,
+form button.btn-active {
+  background-color: #F2E9E4;
+  color: #4A4E69;
   box-shadow: 0 0 0 3px #87CEEB;
 }
 

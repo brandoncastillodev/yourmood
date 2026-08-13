@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./styles/app.css";
 import { discos } from "./utils/canciones";
 import { Analytics } from "@vercel/analytics/react";
@@ -7,6 +7,7 @@ function App() {
   const [eng, setEng] = useState(true);
   const [respuesta , setRespuesta] = useState("");
   const [album, setAlbum] = useState({ name: "", link: "" });
+  const [activeBtn, setActiveBtn] = useState(false);
   const options = {
     playerVars: {
       autoplay: 1,
@@ -76,7 +77,15 @@ function App() {
           min={1}
           max={10}
         ></input>
-       {eng? <button>Send</button>:<button>Enviar</button>}
+       {eng? <button
+         className={activeBtn ? "btn-active" : ""}
+         onKeyDown={(e) => { if (e.key === "Enter") setActiveBtn(true); }}
+         onKeyUp={() => setActiveBtn(false)}
+       >Send</button>:<button
+         className={activeBtn ? "btn-active" : ""}
+         onKeyDown={(e) => { if (e.key === "Enter") setActiveBtn(true); }}
+         onKeyUp={() => setActiveBtn(false)}
+       >Enviar</button>}
       </form>
       {album.link && (
         <div className="video">
