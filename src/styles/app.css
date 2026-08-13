@@ -55,9 +55,12 @@ form input[type=number]::-webkit-inner-spin-button {
 form input[type=number] {
   -moz-appearance: textfield;
 }
-form input:hover,
-form :focus-visible {
+form input:hover {
   outline: 3.5px solid #d32828;
+}
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #87CEEB;
 }
 form button {
   border: 2px solid #F2E9E4;
